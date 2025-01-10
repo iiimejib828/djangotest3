@@ -1,0 +1,39 @@
+/* Общие стили */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Светлый фон */
+    margin: 0;
+    padding: 0;
+}
+
+/* Заголовки */
+h1, h2, h3 {
+    color: #343a40; /* Тёмный текст */
+    margin-bottom: 20px;
+}
+
+h4, h5 {
+    color: #343a40; /* Тёмный текст */
+    margin-bottom: 20px;
+    text-align: right;
+}
+/* Карточки для галереи */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    text-align: center;
+}
+
+/* Стили для подвала */
+footer {
+    background-color: #343a40; /* Тёмный фон */
+    color: white;
+}
